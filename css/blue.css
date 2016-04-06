@@ -1,0 +1,147 @@
+.top-bar .social-icons li a:hover,
+.top-bar .login-section a:hover,
+#navigation .search-icon span i:hover,
+#navigation .navbar-fixed-top .search-icon span i:hover,
+.home-content .scroll-arrow a {
+    color: #005952;
+}
+
+#home-section,
+.navbar-fixed-top .top-bar .login-section a,
+#page .top-bar .login-section a,
+#page .navbar-toggle .icon-bar,
+.navbar-fixed-top .navbar-toggle .icon-bar,
+#navigation .navbar-nav .open .dropdown-menu > .active > a,
+#navigation .navbar-nav .open .dropdown-menu > .active > a:hover,
+#navigation .navbar-nav .open .dropdown-menu > .active > a:focus {
+    background-color: #003148;
+}
+
+.home-content h1,
+.item-one .home-content h1,
+#navigation .dropdown-menu li a,
+.search .search-close:hover,
+#navigation .search-icon span i:hover {
+    color: #003148;
+}
+
+a,
+a:focus,
+a:hover,
+.section-title h2,
+.welcome-content .welcome-info a,
+.welcome-content .welcome-image a i,
+.project-content:hover .project-title h3,
+.entry-content a:hover,
+.entry-content:hover a,
+.footer-widget li a:hover,
+.project-filter ul li a:hover,
+.project-filter ul li a.active,
+.architect-filter ul li a:hover,
+.architect-filter ul li a.active,
+.architect-info .social-icons a:hover,
+.architect:hover h3,
+.feature:hover .feature-content h3,
+.other-feature:hover h3,
+.fontawesome-icon-list .fa-hover a:hover,
+.team-hero-info .socials li a:hover,
+.team-content:hover .team-hero-info h2,
+.widget .latest-posts a:hover,
+.widget .latest-posts span a:hover,
+.post-content.detail-content .entry-title,
+.widget ul li a:hover,
+.post-content .entry-title a:hover,
+.post-content .entry-meta li a:hover,
+.post-content .entry-summary .read-more:hover,
+#blog-carousel .carousel-control:hover,
+.post-content .entry-meta li i,
+.author-section .author-image .social-icons li a,
+#amazing-features .features:hover h4,
+.error-page-content h1,
+#countdown ul li p,
+.coming-soon a:hover,
+.contact-info a:hover {
+    color: #003A56;
+}
+
+.btn-primary.btn-animated,
+.section-title:before,
+.section-title:after,
+.twentytwenty-handle,
+#home-section-slider .btn-primary,
+#page-title,
+.faqs .panel-default>.panel-heading.active,
+.faqs .panel-default>.panel-heading:hover,
+#login-wrapper .btn-primary,
+#login-wrapper .btn-primary.register:hover,
+#login-wrapper .btn-primary.register:after,
+.widget h3.widget_title,
+.widget.tag-cloud ul li a:hover,
+.pagination-section .blog-pagination li a:hover,
+.pagination-section .blog-pagination li.active a,
+.author-section .author-image .social-icons li a:hover,
+#main-contact-form .btn-primary,
+.error-page-content .btn.btn-primary {
+    background-color: #003A56;
+}
+
+
+/*.project-content .project-item a:after,
+.entry-thumb:after,
+.footer-widget.instagram li a:after,
+.feature-image a:after {
+    background-color: rgba(0, 174, 239, 0.75);
+}*/
+
+.btn-primary.btn-animated:hover:after,
+.twentytwenty-handle:hover {
+    background-color: #089ed6;
+}
+
+.post-content.detail-content blockquote {
+    border-left: 3px solid #00aeef;
+}
+
+.btn-primary.btn-animated,
+.btn-primary {
+    border: 1px solid #00aeef;
+}
+
+.btn-primary.btn-animated:hover,
+.btn-primary:hover {
+    border: 1px solid #089ed6;
+}
+
+#page .navbar-toggle,
+.navbar-fixed-top .navbar-toggle {
+    border: 1px solid #003148;
+}
+
+.form-control:focus,
+.widget-area .widget_search .form-control:focus {
+    border: 1px solid #00aeef;
+}
+
+@media (min-width: 1000px) {
+    #navigation .dropdown-menu .active > a,
+    #navigation .dropdown-menu li > a:hover {
+        background-color: #003148 !important;
+        border-bottom: solid 1px #003148;
+    }
+}
+
+@media (max-width: 999px) {
+    #navigation .navbar-right li a:hover {
+        color: #003148;
+    }
+    #page #navigation .navbar-nav > li > a:hover,
+    #navigation .navbar-fixed-top .navbar-nav > li > a:hover,
+    #navigation .navbar-nav .open .dropdown-menu > li > a:hover,
+    #navigation .navbar-nav .open .dropdown-menu > li > a:focus,
+    #page #navigation .navbar .navbar-right .dropdown-menu li a:hover,
+    #navigation .navbar-fixed-top .navbar-right .dropdown-menu li.active > a,
+    #page #navigation .navbar .navbar-right .dropdown-menu li.active > a {
+        background-color: #003148;
+        color: #fff;
+    }
+}
