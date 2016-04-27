@@ -1507,67 +1507,11 @@ textarea.form-control {
 
 
 /*========================
-========Twitter CSS=======
-==========================*/
-
-#twitter {
-	background-image: url("../images/bg/twitter-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-size: 20px;
-	font-weight: 300;
-	color: #fff;
-	background-color: #2db7eb;
-	position: relative;
-}
-
-#twitter .overlay-bg {
-	background-color: rgba(0, 174, 239, 0.90);
-}
-
-#twitter-carousel {
-	max-width: 800px;
-	display: inline-block;
-}
-
-.twitter-icon {
-	font-size: 60px;
-	color: #fff;
-	position: relative;
-	z-index: 10;
-	margin-bottom: 25px;
-	line-height: 55px;
-}
-
-#twitter-carousel .item a {
-	font-size: 16px;
-	font-weight: 600;
-	color: #fff;
-}
-
-#twitter-carousel .carousel-indicators {
-	bottom: -55px
-}
-
-#twitter-carousel .carousel-indicators li {
-	background-color: #fff;
-}
-
-#twitter-carousel .carousel-indicators .active {
-	background-color: #0072bc;
-	border-color: #0072bc;
-	height: 10px;
-	width: 10px;
-	margin: 1px;
-}
-
-
-/*========================
 ========Clients CSS=======
 ==========================*/
 
 .clients ul li {
-	width: 24%;
+	width: 15%;
 	padding: 15px;
 	overflow: hidden;
 }
@@ -1584,20 +1528,6 @@ textarea.form-control {
 	filter: grayscale(100%);
 	-webkit-filter: gray;
 	filter: gray;
-	/* IE 6-9 */
-	cursor: pointer;
-}
-
-.clients ul li:hover img {
-	-webkit-transform: skewX(180deg);
-	transform: skewX(180deg);
-	-webkit-filter: none;
-	-moz-filter: none;
-	-ms-filter: none;
-	-o-filter: none;
-	filter: none;
-	-webkit-filter: none;
-	filter: none;
 	/* IE 6-9 */
 }
 
